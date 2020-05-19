@@ -139,7 +139,7 @@ ATtinyX313.menu.cpu.attiny2313.upload.maximum_data_size=128
 ATtinyX313.menu.cpu.attiny2313.build.mcu=attiny2313
 ATtinyX313.menu.cpu.attiny2313.build.variant=tiny20
 
-ATtinyX313.menu.cpu.attiny4313=ATtiny44
+ATtinyX313.menu.cpu.attiny4313=ATtiny4313
 ATtinyX313.menu.cpu.attiny4313.upload.maximum_size=4096
 ATtinyX313.menu.cpu.attiny4313.upload.maximum_data_size=256
 ATtinyX313.menu.cpu.attiny4313.build.mcu=attiny4313
