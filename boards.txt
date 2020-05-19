@@ -122,3 +122,39 @@ ATtinyX4.menu.clock.external20.bootloader.low_fuses=0xfe
 ATtinyX4.menu.clock.external20.bootloader.high_fuses=0xdf
 ATtinyX4.menu.clock.external20.bootloader.extended_fuses=0xff
 ATtinyX4.menu.clock.external20.build.f_cpu=20000000L
+
+################################################################################
+
+ATtinyX313.name=ATtiny2313/4313
+ATtinyX313.bootloader.tool=arduino:avrdude
+ATtinyX313.bootloader.unlock_bits=0xff
+ATtinyX313.bootloader.lock_bits=0xff
+ATtinyX313.build.core=arduino:arduino
+ATtinyX313.build.board=attiny
+ATtinyX313.upload.tool=arduino:avrdude
+
+ATtinyX313.menu.cpu.attiny2313=ATtiny2313
+ATtinyX313.menu.cpu.attiny2313.upload.maximum_size=2048
+ATtinyX313.menu.cpu.attiny2313.upload.maximum_data_size=128
+ATtinyX313.menu.cpu.attiny2313.build.mcu=attiny2313
+ATtinyX313.menu.cpu.attiny2313.build.variant=tiny20
+
+ATtinyX313.menu.cpu.attiny4313=ATtiny44
+ATtinyX313.menu.cpu.attiny4313.upload.maximum_size=4096
+ATtinyX313.menu.cpu.attiny4313.upload.maximum_data_size=256
+ATtinyX313.menu.cpu.attiny4313.build.mcu=attiny4313
+ATtinyX313.menu.cpu.attiny4313.build.variant=tiny20
+
+# TODO: Add other clocks...
+
+ATtinyX313.menu.clock.internal1=Internal 1 MHz
+ATtinyX313.menu.clock.internal1.bootloader.low_fuses=0x64
+ATtinyX313.menu.clock.internal1.bootloader.high_fuses=0x9F
+ATtinyX313.menu.clock.internal1.bootloader.extended_fuses=0xff
+ATtinyX313.menu.clock.internal1.build.f_cpu=1000000L
+
+ATtinyX313.menu.clock.internal8=Internal 8 MHz
+ATtinyX313.menu.clock.internal8.bootloader.low_fuses=0xE4
+ATtinyX313.menu.clock.internal8.bootloader.high_fuses=0x9F
+ATtinyX313.menu.clock.internal8.bootloader.extended_fuses=0xff
+ATtinyX313.menu.clock.internal8.build.f_cpu=8000000L
